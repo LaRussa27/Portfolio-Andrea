@@ -1,0 +1,99 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+body {
+  width:1000px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.Andrea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 500px;
+}
+
+.Andrea img {
+  width: 270px;
+  height: 320px;
+  border-radius: 20px;
+  border: 1px solid mintcream;
+  margin-left: 90px;
+}
+
+.principale{
+  background-color: mintcream;
+  height: 540px;
+}
+
+.bio{
+  display:flex;
+  justify-content: flex-end;
+  margin: -350px 45px;
+  font-size: 18px;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  border-left: : 15px solid mintcream;
+
+}
+
+.contatti {
+background-color: LightSkyBlue;
+display: flex;
+justify-content: space-around;
+height: 110px;
+
+}
+
+.facebook-logo {
+  width: 65px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.instagram-logo{
+  width: 120px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.linkedin-logo{
+  width: 45px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 20px;
+}
+
+.info {
+  background-color: LightSkyBlue;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  text-align: center;
+}
+
+h3 {
+  background-color: LightSkyBlue;
+  text-align:center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 7px;
+  font-size: 40px;
+
+}
+
+.me {
+  position: relative;
+  bottom: 28px;
+  right: 15px;
+}
